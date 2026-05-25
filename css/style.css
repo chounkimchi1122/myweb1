@@ -1,0 +1,145 @@
+/* header */
+.header {
+    display: flex;
+    border: none;
+    background-color: black;
+    /* ប្រើសម្រាប់ដាក់គម្លាត់អក្សចេញពីរគ្នា */
+    justify-content: space-between;
+
+}
+
+.header .card {
+    /* ប្រើសម្រាប់ដោះប្រអប់ចេញ */
+    border: none;
+    background-color: black;
+    color: white;
+    display: flex;
+
+}
+
+.header .card h3 {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.header .card h3 i {
+    /* ប្រើសម្រាប់រំកិលអក្សចេញខាងក្នុង */
+    padding: 5px;
+}
+/* container */
+.container{
+    background-color: whitesmoke;
+    /* ប្រើសម្រាប់រំកិលអក្សរទៅខាងស្ដាំ */
+    display: flex;
+    /* ប្រើសម្រាប់រំកិល objectទាំងមកកណ្ដាល */
+    align-items: center;
+    /* ប្រើសម្រាប់ដាក់គម្លាត់logoនិងអក្សរអោយឆ្ងាយពីរគ្នា */
+    justify-content: space-between;
+    width: 200px;
+    box-shadow: 0px 0px 8px 0px black;
+    margin-top: 5px;
+}
+.container.logo {
+    width: 30%;
+}
+.logo img{
+    width: 30%;
+    border-radius: 10px;
+    padding: 5px;
+}
+/* menu */
+
+.menu-icon{
+    margin-right: 10px;
+    cursor: pointer;
+    display: none; 
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px;
+   
+}
+
+.menu li a:hover{
+    background-color: orange;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.menu li a i {
+    margin-right: 8px;
+    font-size: 15px;
+    color: gray;
+}
+
+.row row-cols-1 row-cols-md-3 g-4 img{
+  width: 20%;
+  height: 20%;
+}
+.btn btn-primaryv {
+
+    margin-left: 35%;
+    font-style: oblique;
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+hr{
+    align-items: baseline;  
+}
+.card-body a{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+/* category */
+.category {
+    display: flex;
+    width: 100px;
+    margin-left: 180px;
+    align-items: center;
+    
+}
+
+.category .card1 {
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 650px;
+    height: 190px;
+    border-radius: 10px;
+
+}
+
+.category .card1 img {
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.category .card1 p {
+    text-align: center;
+}
+
+.category .card1:hover {
+    border: 1px solid blue;
+}
+.category .card1 a{
+    margin-top: auto;
+    flex-wrap: wrap;
+}
